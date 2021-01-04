@@ -1,0 +1,4 @@
+comments = ctrl + /
+next line in string = \n
+len = length of string (amount of characters) = integer
+to use int in a print use str(variable)
