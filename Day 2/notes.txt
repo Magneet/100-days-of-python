@@ -1,0 +1,44 @@
+[] is get x character from string
+print("Hello"[2]) get's first l
+
+integers
+use _ to make more readable
+123_456_789 is read as 123456789
+
+floating
+
+float = floating point number 
+3.14159
+
+boolean True or False (capiutal T and capital F)
+
+bool = True
+
+type checking
+type(var_name)
+print(type(var_name))
+
+
+force string
+str(var_name)
+int(var_name)
+
+
+calculations
+
+()
+** power off (2 to the power of 4)
+* /  (Order of written down)
++ - (Order of written down)
+
+print(3 * 3 + 3 / 3 - 3) = 7
+
+round(int(var_name) / 3, 2)  the , 2 sets amount of digits
+
+floor = // (8 // 3) = 2 
+
+calc var_name += 1
+
+f-string f"fsafsa"
+can be used to combine multiple types in a string
+print(f"blabla {var_number}")
