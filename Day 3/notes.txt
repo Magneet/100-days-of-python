@@ -1,0 +1,32 @@
+conditions
+if condition:
+    do something
+elif other_condition:
+    do_something_else
+else:
+    do something_different
+
+Comparison operators
+>   gt
+<   lt
+>=  ge
+<=  le
+==  eq
+!=  ne
+
+modulo = divide gives remainder
+7 % 3
+3+3+1 modulo = 1
+7 % 2
+2+2+2 +1
+
+combining
+and
+or
+
+if a = 15 and b = 1:
+
+not reverses
+a = 18
+if not a > 15
+false
