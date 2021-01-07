@@ -1,0 +1,21 @@
+modules
+import modulename
+import random
+
+info:
+print(help(random))
+print(dir(random))
+from: https://stackoverflow.com/questions/5103329/how-to-find-out-what-methods-properties-etc-a-python-module-possesses
+
+
+random documentation: https://www.askpython.com/python-modules/python-random-module-generate-random-numbers-sequences
+
+random_float= random.random()
+always between 0 an 1 multiple by something to get bigger numbers
+
+lists
+data structure
+random.choice(variable) to get random item from list
+use variable[] to get the offset for the item in a list 0 for the first one negative is for starting from the end
+
+split breaks up string into list
