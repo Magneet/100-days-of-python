@@ -1,0 +1,13 @@
+for loop
+
+for item in list:
+    do something
+
+range of numbers = rang(0,100)  https://www.w3schools.com/python/ref_func_range.asp
+
+sum() = sum of int
+len() = amount of entries in list
+max() = highest in list
+min() = lowest in list
+
+random.shuffle to shuffle things around in a list
