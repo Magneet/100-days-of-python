@@ -1,0 +1,20 @@
+codeblocks
+functions
+while loops
+
+functions
+
+def function_name():
+    indented
+    belong
+    to
+    the
+    tunction
+
+call functions
+
+function_name()
+
+while loop not needed to give true
+while bla_is_true:
+    do_whatever
