@@ -1,0 +1,5 @@
+var_name = [] defines list
+
+for index, var_name in enumerate(other_var): gives both the var you want and the index where it is placed
+
+import from other_file imports lists from other py files
