@@ -1,0 +1,6 @@
+functions with param (input)
+def function(param_name):
+    do(param_name)
+
+paramater = param_name
+argument = value
