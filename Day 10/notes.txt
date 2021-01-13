@@ -1,0 +1,15 @@
+funcions with outputs
+
+def function():
+    results = 3*2
+    return result
+
+start each word with capital letter
+string.title()
+
+return can also be used to exit a function
+
+docstring used to document functions
+def function():
+    """"bla bla docuentation
+    also multiple lines"""
