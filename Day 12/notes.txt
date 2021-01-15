@@ -1,0 +1,24 @@
+scope
+
+variable or function defined inside a function isn't available outside of the function (local scope)
+global scope = function defined outside of a function on top level. 
+
+to use global var:
+
+global_var = 0
+def function():
+    global global_var
+    global_var += 1
+
+this doesn't give a good overview, better use return
+
+global_var = 0
+def function():
+    return global_var + 1
+    
+global_var = function()
+
+naming convention:
+global constant (not changing variable)
+define name in captitals
+NAME="Wouter Kursten"
