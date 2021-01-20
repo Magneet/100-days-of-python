@@ -1,0 +1,13 @@
+object oriented programming
+make pieces of code re-usable
+
+object : attributes (variables) and methods (functions)
+
+blueprint for an object =  Class
+
+new object from class: this uses Pascal Case or captitals for the wording
+object = CarBlueprint()
+
+show class print(type(object))
+show vars of an object : print(vars(object)) 
+show methods of an object print(dir(object)) 

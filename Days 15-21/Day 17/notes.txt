@@ -1,0 +1,18 @@
+class
+Class needs first letter of every word capitalized (PascalCase)
+
+camelcase = first word lower and others high like camelCase
+
+snake_case = all words lowercase but with underscore
+
+add pass to empty function or class to avoid errors
+
+constructor is what happens when a class is called build using __init__(self, variables)
+
+class User:
+    def __init__(self, user_id, username):     #this is called the constructor
+        self.id = user_id
+        self.username = usernameuser_id
+
+
+defaults can be used as well
