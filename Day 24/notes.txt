@@ -1,0 +1,11 @@
+opening files using with will make it close automatically so you don't need to close it
+dir = "d:\\GIT\\100-days-of-python\\Day 24\\"   #don't forget the extra \ to scape the \
+
+with open(f"{dir}text.txt", mode="a") as file:   # mode default is read only w is for write (overwrite a for append)
+    file.write("\nfdfddffsdfdsfsdfsd\n")
+
+with open(f"{dir}text.txt") as file:
+    contents = file.read()
+    print(contents)
+
+if a file doesn't exists it will be craeted
