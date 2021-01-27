@@ -1,0 +1,51 @@
+gui's tkinter
+
+import tkinter
+window = tkinter.Tk()
+window.title("yeah a gui")
+
+window.minsize(width = 500, height = 300)
+
+label = tkinter.Label(text = "bla", font =("Arial", 23, "bold "))
+label.pack(side="left")
+
+window.mainloop()
+
+
+
+default arguments
+*args = many arguments returns tuple
+
+
+
+advanced python arguments
+default values
+def my_function(a=1, b=2, c=3):
+
+unlimited arguments
+
+def my_function(*args):
+    for n in args:
+        print(n)
+my_function(1,6,8,5,4)
+
+**kwargs = many named arguments returns dict
+
+
+def my_function(**kwargs):
+    for key, value in kwargs.items():
+        print(key)
+        print(value)
+my_function(add=3, multiply=7)
+
+also works for a class
+
+class Car:
+    def __init__(self, **kw):
+        self.make = kw.get("make")                  # could also use self.make = kw("make") but will give error if no make is provided
+        self.model = kw.get("model")
+
+my_car = Car(make="Slopel")
+print(my_car.model)
+
+
