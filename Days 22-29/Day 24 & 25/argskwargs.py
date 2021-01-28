@@ -1,23 +1,3 @@
-import tkinter
-window = tkinter.Tk()
-window.title("yeah a gui")
-
-window.minsize(width = 500, height = 300)
-
-label = tkinter.Label(text = "bla", font =("Arial", 23, "bold "))
-label["text"]= "bla2"
-label.config(text="bla3")
-button = tkinter.Button(text="don't click here")
-label.pack()
-button.pack()
-
-
-
-
-
-window.mainloop()
-
-
 # def my_function(*args):
 #     sum = 0
 #     for n in args:
