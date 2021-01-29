@@ -49,3 +49,8 @@ my_car = Car(make="Slopel")
 print(my_car.model)
 
 
+to exit a window
+def break_clicked():
+    window.destroy()
+
+

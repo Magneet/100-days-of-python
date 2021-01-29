@@ -1,0 +1,7 @@
+
+bg = background color
+fg = foregroundcolor
+
+highlightthickness=0  + means no border around a canvas or somethiung
+window.config(padx=100, pady=50, bg=YELLOW)
+
