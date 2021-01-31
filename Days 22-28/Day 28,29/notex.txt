@@ -1,0 +1,18 @@
+error handling can have multiple excepts
+
+try:    #tries to do something
+
+except specificError:    #if some specific error happens
+
+except anotherError as error_message: # if another error happens
+    print(f"Some error including {error_message} and more text")
+
+
+else: # if the try succeeds and only then
+    print("whatever")
+finally:   #runs no matter what happens
+
+
+raise exceptions
+
+raise TypeError or KeyError with ("a message")
