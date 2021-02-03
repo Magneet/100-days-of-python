@@ -1,0 +1,31 @@
+smtp datetime
+
+
+import smtplib
+connection = smtplib.SMTP("smtpserver")
+connection.starttls()
+connection.login(user="user", password = "password")
+connection.sendmail(from_addr="emailadd",to_addrs="otheremail",msg="Subject:gfgfdgdf\n\nBody f the email")
+connection.close()
+
+can also be this will autoclose the connection
+
+with smtplib.SMTP("smtpserver") as connection:
+    connection.starttls()
+    connection.login(user="user", password = "password")
+    connection.sendmail(
+        from_addr="emailadd",
+        to_addrs="otheremail",
+        msg="Subject:gfgfdgdf\n\nBody f the email"
+    )
+
+
+import datetime as dt
+
+print(dt.datetime.now())
+
+file="Template_processes20-10-2020-18-55-25-4096.csv"
+f = file[18:-9]
+dt_obj = dt.datetime.strptime(f, "%d-%m-%Y-%H-%M-%S")
+
+print(dt_obj)
