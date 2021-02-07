@@ -1,0 +1,25 @@
+regex
+
+https://pythex.org/
+
+/ = escape
+| = OR
+
+gr[ae]y # this works as an org
+[a-z] = range
+[0-9] = range
+[^abcd] = negated class
+[^a-z] = negated range
+negated is ^ immediately after opening bracket
+
+shorthand metacharacters
+\w [a-zAA-Z0-9_]
+\s whitespace characters
+\d [0-9] digits
+\W negated from \w
+\S non-whitespace
+\D [^0-9] non-digit characters
+. any
+\n newline characters
+\t tab
+\r carriare return
